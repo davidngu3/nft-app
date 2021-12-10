@@ -1,1 +1,1 @@
-// source: https://medium.com/gochain/how-to-create-and-deploy-an-nft-smart-contract-in-10-minutes-e0d7ef8e59fc
+// source: https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/
