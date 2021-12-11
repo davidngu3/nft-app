@@ -1,10 +1,12 @@
 require("dotenv").config({path:"../.env"});
 const API_URL = process.env.API_URL;
+const PUBLIC_KEY = process.env.PUBLIC_KEY;
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(API_URL);
 
 const contract = require("../artifacts/contracts/MyNFT.sol/MyNFT.json");
-
 const contractAddress = "0xF926b7607E8525A243988FC0a78A8f005be39452";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
@@ -44,4 +46,6 @@ async function mintNFT(tokenURI) {
         .catch((err) => {
             console.log(" Promise failed:", err)
         });
-  }
+}
+
+mintNFT("https://gateway.pinata.cloud/ipfs/QmNVxVnT3iePhqv3ujCixz4Nf5NrK2UwiKcoy8g1DK1yBN");
