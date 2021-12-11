@@ -1,0 +1,28 @@
+{
+  "name": "nft-app",
+  "version": "1.0.0",
+  "description": "My first NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidngu3/nft-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidngu3/nft-app/issues"
+  },
+  "homepage": "https://github.com/davidngu3/nft-app#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "dotenv": "^10.0.0"
+  }
+}
