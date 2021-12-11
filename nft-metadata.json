@@ -1,0 +1,20 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Eye color",
+        "value": "White"
+      },
+      {
+        "trait_type": "Body color",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body color secondary",
+        "value": "Light Grey"
+      }
+    ],
+    "description": "The first pixel crow. The Adam of all crows. The original.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVDCCBbV7wFCE2jZyKQZ9cMSpKKrirv7uHJpgm7qWtvKd",
+    "name": "CC01"
+  }
+  
